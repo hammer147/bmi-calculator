@@ -1,3 +1,11 @@
+:root {
+  --default-color: blue;
+  --underweight-color: red;
+  --normal-color: green;
+  --overweight-color: orange;
+  --obese-color: red;
+}
+
 html,
 body {
   padding: 0;

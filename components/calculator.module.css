@@ -1,0 +1,41 @@
+.inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.inputs label {
+  margin: 10px;
+}
+
+.formInputs {
+  margin: 20px;
+}
+
+.formInputs input[type="number"] {
+  max-width: 50px;
+  margin: 5px 0px;
+}
+
+.inputs button {
+  color: ivory;
+  background-color: var(--default-color);
+  font-size: 1.5em;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+
+button.underweight{
+  background-color: var(--underweight-color);
+}
+button.normal{
+  background-color: var(--normal-color);
+}
+button.overweight{
+  background-color: var(--overweight-color);
+}
+button.obese{
+  background-color: var(--obese-color);
+}
