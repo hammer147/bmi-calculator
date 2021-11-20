@@ -1,5 +1,5 @@
 .container {
-  min-height: 50vh;
+  min-height: 100vh;
   width: 400px;
   margin: 0 auto;
   border: 5px solid var(--default-color);
@@ -8,7 +8,7 @@
   background-color: rgb(30,30,30);
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
