@@ -27,7 +27,7 @@ const Home: NextPage = () => {
       </div>
       <Calculator catClass={catClass} setBmi={setBmi} />
       <div className={`${styles.img}`}>
-        <Image src={`/images/${catClass}.png`} alt={catClass} width={120} height={240} />
+        <Image src={`/images/${catClass}.png`} alt={catClass} width={110} height={220} />
       </div>
     </div>
   )
