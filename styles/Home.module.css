@@ -1,6 +1,6 @@
 .container {
-  min-height: 100vh;
-  width: 400px;
+  height: 100vh;
+  width: 100vw;
   margin: 0 auto;
   border: 5px solid var(--default-color);
   border-radius: 5px;
@@ -8,7 +8,7 @@
   background-color: rgb(30,30,30);
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -28,10 +28,14 @@
 .title {
   background-color: var(--default-color);
   text-align: center;
-  font-size: 1.5em;
+  font-size: 2rem;
   margin: 0;
   padding: 5px;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .underweight .title{
   background-color: var(--underweight-color);
@@ -55,13 +59,13 @@
 }
 
 .bmiValue {
-  font-size: 1.3em;
+  font-size: 1.3rem;
   font-weight: bold;
 }
 
 .bmiCategory {
   margin-top: 20px;
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 .underweight .bmiCategory {
   color: var(--underweight-color);
@@ -74,4 +78,8 @@
 }
 .obese .bmiCategory {
   color:var(--obese-color);
+}
+
+.img {
+  margin-bottom: 2rem;
 }
